@@ -5,3 +5,5 @@
 .bloop
 metals.sbt
 target
+gh-pages/demo.js
+gh-pages/demo.js.map

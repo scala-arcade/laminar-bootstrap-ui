@@ -13,7 +13,8 @@ lazy val example = project
   .in(file("example"))
   .settings(
     scalaJSUseMainModuleInitializer := true,
-    Compile / mainClass := Some("Example")
+    Compile / mainClass := Some("Example"),
+    Compile / fullOptJS / artifactPath := baseDirectory.value / ".." / "gh-pages" / "demo.js"
   )
   .enablePlugins(ScalaJSPlugin)
   .dependsOn(bootstrap)
