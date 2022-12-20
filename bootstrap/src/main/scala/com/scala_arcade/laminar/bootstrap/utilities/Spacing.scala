@@ -50,6 +50,22 @@ object Spacing {
   val me_5: Setter[HtmlElement]    = csApply("me-5")
   val me_auto: Setter[HtmlElement] = csApply("me-auto")
 
+  val mx_0: Setter[HtmlElement]    = csApply("mx-0")
+  val mx_1: Setter[HtmlElement]    = csApply("mx-1")
+  val mx_2: Setter[HtmlElement]    = csApply("mx-2")
+  val mx_3: Setter[HtmlElement]    = csApply("mx-3")
+  val mx_4: Setter[HtmlElement]    = csApply("mx-4")
+  val mx_5: Setter[HtmlElement]    = csApply("mx-5")
+  val mx_auto: Setter[HtmlElement] = csApply("mx-auto")
+
+  val my_0: Setter[HtmlElement]    = csApply("my-0")
+  val my_1: Setter[HtmlElement]    = csApply("my-1")
+  val my_2: Setter[HtmlElement]    = csApply("my-2")
+  val my_3: Setter[HtmlElement]    = csApply("my-3")
+  val my_4: Setter[HtmlElement]    = csApply("my-4")
+  val my_5: Setter[HtmlElement]    = csApply("my-5")
+  val my_auto: Setter[HtmlElement] = csApply("my-auto")
+
   val p_0: Setter[HtmlElement]    = csApply("p-0")
   val p_1: Setter[HtmlElement]    = csApply("p-1")
   val p_2: Setter[HtmlElement]    = csApply("p-2")
@@ -89,5 +105,21 @@ object Spacing {
   val pe_4: Setter[HtmlElement]    = csApply("pe-4")
   val pe_5: Setter[HtmlElement]    = csApply("pe-5")
   val pe_auto: Setter[HtmlElement] = csApply("pe-auto")
+
+  val px_0: Setter[HtmlElement]    = csApply("px-0")
+  val px_1: Setter[HtmlElement]    = csApply("px-1")
+  val px_2: Setter[HtmlElement]    = csApply("px-2")
+  val px_3: Setter[HtmlElement]    = csApply("px-3")
+  val px_4: Setter[HtmlElement]    = csApply("px-4")
+  val px_5: Setter[HtmlElement]    = csApply("px-5")
+  val px_auto: Setter[HtmlElement] = csApply("px-auto")
+
+  val py_0: Setter[HtmlElement]    = csApply("py-0")
+  val py_1: Setter[HtmlElement]    = csApply("py-1")
+  val py_2: Setter[HtmlElement]    = csApply("py-2")
+  val py_3: Setter[HtmlElement]    = csApply("py-3")
+  val py_4: Setter[HtmlElement]    = csApply("py-4")
+  val py_5: Setter[HtmlElement]    = csApply("py-5")
+  val py_auto: Setter[HtmlElement] = csApply("py-auto")
 
 }
