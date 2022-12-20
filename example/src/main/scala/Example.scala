@@ -2,7 +2,7 @@ import com.raquo.laminar.api.L.*
 import com.raquo.laminar.nodes.ReactiveHtmlElement
 import com.scala_arcade.laminar.bootstrap.component.*
 import com.scala_arcade.laminar.bootstrap.layout.Container
-import com.scala_arcade.laminar.bootstrap.utilities.Spacing.m_5
+import com.scala_arcade.laminar.bootstrap.utilities.Spacing.*
 import org.scalajs.dom
 import org.scalajs.dom.html
 
